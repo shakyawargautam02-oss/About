@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gautam | Portfolio</title>
+
+    <link rel="stylesheet" href="firstweb.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+<header>
+<div class="logo">GAUTAM</div>
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+<button id="menuBtn">☰</button>
+</header>
+
+		<!-- ================= HOME ================= -->
+
+<section id="home" class="hero">
+<div class="hero-text">
+<p>Hello, I'm</p>
+<h1>Gautam Shakya</h1>
+<h2>Full Stack Developer</h2>
+<p>I create modern, responsive and user-friendly websites.
+</p>
+<button onclick="showMessage()">
+Explore My Work</button>
+</div>
+</section>
+		
+		<!-- ================= ABOUT ================= -->
+<section id="about">
+<h2>About Me</h2>
+<div class="about-box">
+<p>Hello! My name is Gautam.I am learning Web Development and Full Stack Development.I enjoy creating websites and learning new technologies.</p>
+</div>
+</section>
+<!-- ================= SKILLS ================= -->
+<section id="skills">
+<h2>My Skills</h2>
+<div class="skills-container">
+<div class="skill">
+<h3>HTML</h3>
+<p>Web Structure</p>
+</div>
+
+<div class="skill">
+<h3>CSS</h3>
+<p>Design & Layout</p>
+</div>
+
+<div class="skill">
+<h3>JavaScript</h3>
+<p>Website Functionality</p>
+</div>
+
+<div class="skill">
+<h3>React</h3>
+<p>Frontend Development</p>
+</div>
+</div>
+</section>
+
+		<!-- ================= PROJECTS ================= -->
+
+<section id="projects">
+<h2>My Projects</h2>
+		
+<div class="project-container">
+<article class="project">
+<h3>Portfolio Website</h3>
+<p>A modern personal portfolio website.</p>
+<button>View Project</button>
+</article>
+		
+<article class="project">
+<h3>Calculator</h3>
+<p>A JavaScript based calculator.</p>
+<button>View Project</button>
+</article>
+
+<article class="project">
+<h3>Login Page</h3>
+<p>A responsive login 
+		interface.</p>
+<button>View Project</button>
+</article>
+</div>
+</section>
+
+		<!-- ================= CONTACT ================= -->
+<section id="contact">
+<h2>Contact Me</h2>
+<form id="contactForm">
+<input type="text" id="name"
+ placeholder="Your Name"
+		required>
+
+<input type="email"id="email"
+placeholder="Your Email"
+	required>
+
+<textarea id="message"
+placeholder="Your Message"
+required></textarea>
+<button type="submit">Send Message</button>
+</form>
+<p id="result"></p>
+</section>
+<!-- ================= FOOTER ================= -->
+<footer>
+<p>© 2026 Gautam. All Rights Reserved.
+</p>
+</footer>
+<script src="firstweb.js"></script>
+
+</body>
+</html>
