@@ -1,40 +1,14 @@
-// ================= MENU =================
-
-const menuBtn = document.getElementById("menuBtn");
-const nav = document.querySelector("nav");
-
-menuBtn.addEventListener("click", function () {
-
-    nav.classList.toggle("active");
-
-});
-
-
-// ================= HERO BUTTON =================
-
-function showMessage() {
-
-    alert("Welcome to Gautam's Portfolio!");
-
-}
-
 
 // ================= CONTACT FORM =================
 
 const form = document.getElementById("contactForm");
 
-form.addEventListener("submit", function (event) {
-
-    event.preventDefault();
+form.addEventListener("submit", function () {
 
     const name = document.getElementById("name").value;
-
     const result = document.getElementById("result");
 
     result.innerText =
-        "Thank you, " + name + "! Your message has been received.";
-
-    form.reset();
+        "Thank you, " + name + "! Please wait while your message is sent.";
 
 });
-
